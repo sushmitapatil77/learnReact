@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
-
-const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
+  <div>
+    <h1>My Favorite Foods</h1>
+    <ul>
+      <li>Bacon</li>
+      <li>Jamon</li>
+      <li>Noodles</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
 );
